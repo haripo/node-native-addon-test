@@ -1,0 +1,10 @@
+{
+  "name": "node-native-addon",
+  "version": "1.0.0",
+  "description": "Useful examples of native-addons",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "haripo",
+  "license": "MIT"
+}
