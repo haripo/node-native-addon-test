@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Useful examples of native-addons",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "haripo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0",
+    "node-gyp": "^3.4.0"
+  }
 }
