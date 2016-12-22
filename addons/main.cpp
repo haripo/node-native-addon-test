@@ -11,8 +11,7 @@ NAN_METHOD(add) {
 }
 
 NAN_MODULE_INIT(init) {
-  Nan::Set(target, Nan::New<v8::String>("add").ToLocalChecked(),
-           Nan::GetFunction(Nan::New<v8::FunctionTemplate>(add)).ToLocalChecked());
+  NAN_EXPORT(target, add);
 }
 
 NODE_MODULE(addon, init)
